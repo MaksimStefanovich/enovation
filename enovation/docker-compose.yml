@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  java-app:
+    build:
+      context: ./
+    container_name: enovation
+    ports:
+      - "8080:8080"
